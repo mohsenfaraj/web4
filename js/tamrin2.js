@@ -43,5 +43,5 @@ function generateSinglePost() {
 function openpost(post) {
   container.empty();
   container.append(generateSinglePost(post));
-  $("#content").load("../posts/" + post + ".html");
+  $("#content").load("./posts/" + post + ".html");
 }
