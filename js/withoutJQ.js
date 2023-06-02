@@ -37,7 +37,7 @@ function getPoem() {
       link.setAttribute("href", obj.url);
     }
   };
-  xhr.open("GET", "http://c.ganjoor.net/beyt-json.php");
+  xhr.open("GET", "https://c.ganjoor.net/beyt-json.php");
   xhr.send();
   xhr.onerror = function () {
     alert(
