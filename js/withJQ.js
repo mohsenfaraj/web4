@@ -23,7 +23,7 @@ bird.mouseleave(function () {
 
 function getPoem() {
   bird.animate({ opacity: "0.7" }, "fast");
-  $.get("https://c.ganjoor.net/beyt-json.php")
+  $.get("https://corsproxy.io/?https%3A%2F%2Fc.ganjoor.net%2Fbeyt-json.php")
     .done(function (data) {
       m1.text(data.m1);
       m2.text(data.m2);
