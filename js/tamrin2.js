@@ -19,7 +19,7 @@ $("document").ready(function () {
 
 function loadmain() {
   container.empty();
-  $.get("../posts/list.json").done(function (data) {
+  $.get("./posts/list.json").done(function (data) {
     data.list.forEach((item) => {
       container.append(generatePosts(item));
     });
