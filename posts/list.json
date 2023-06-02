@@ -1,0 +1,22 @@
+{
+  "list": [
+    {
+      "id": 0,
+      "title": "About Us",
+      "author": "mohsen",
+      "image": "./assets/ud1.svg"
+    },
+    {
+      "id": 1,
+      "title": "What we Offer",
+      "author": "mohsen",
+      "image": "./assets/ud2.svg"
+    },
+    {
+      "id": 2,
+      "title": "How to Contact",
+      "author": "mohsen",
+      "image": "./assets/ud3.svg"
+    }
+  ]
+}

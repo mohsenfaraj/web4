@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+a,
+h1 {
+  text-decoration: none;
+  color: #6c63ff;
+}
+p {
+  color: #333;
+}
+body {
+  text-align: center;
+}
+.dark {
+  background-color: #222;
+}
+.dark p {
+  color: #fff;
+}
+#container {
+  max-width: 600px;
+  margin: auto;
+}
+.post {
+  margin-top: 30px;
+  padding: 10px;
+}
+.nightbtn {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 20px;
+}
